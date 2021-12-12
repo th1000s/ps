@@ -5,4 +5,8 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[dependencies.sysinfo]
+version = "0.21.2"
+# no default features to disable the use of threads
+default-features = false
+features = []
